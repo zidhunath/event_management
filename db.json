@@ -1,0 +1,10 @@
+{   
+    "users":[
+        { 
+            "name":"zidhu",
+            "age":27,
+            "place":"Thiruvanathapuram",
+            "profession":"Fullstack Developer"
+        } 
+    ]
+}
