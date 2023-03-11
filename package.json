@@ -1,0 +1,24 @@
+{
+  "name": "event_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zidhunath/event_management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zidhunath/event_management/issues"
+  },
+  "homepage": "https://github.com/zidhunath/event_management#readme",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  },
+  "devDependencies": {}
+}
