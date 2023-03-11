@@ -1,10 +1,53 @@
-{   
-    "users":[
-        { 
-            "name":"zidhu",
-            "age":27,
-            "place":"Thiruvanathapuram",
-            "profession":"Fullstack Developer"
-        } 
-    ]
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "zidhu",
+      "age": 27,
+      "place": "Thiruvanathapuram",
+      "profession": "Fullstack Developer"
+    },
+    {
+      "name": "Trivi",
+      "age": "10",
+      "place": "trivandrum",
+      "profrssion": "FrontendDeveloper",
+      "id": 1
+    },
+    {
+      "name": "Shameem",
+      "age": "27",
+      "place": "Bangalore",
+      "profrssion": "BckendDeveloper",
+      "id": 2
+    },
+    {
+      "name": "New man ",
+      "age": "25",
+      "place": "Delhi",
+      "profrssion": "FullstackDeveloper",
+      "id": 3
+    },
+    {
+      "name": "ming",
+      "age": "30",
+      "place": "asam",
+      "profrssion": "BckendDeveloper",
+      "id": 4
+    },
+    {
+      "name": "Jake",
+      "age": "23",
+      "place": "Trivandrun",
+      "profrssion": "BckendDeveloper",
+      "id": 5
+    },
+    {
+      "name": "TestUser",
+      "age": "23",
+      "place": "TestArea",
+      "profrssion": "BckendDeveloper",
+      "id": 6
+    }
+  ]
 }
