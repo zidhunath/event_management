@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.width100{
+    width: 100%;
+}
+.padding5{
+    padding: 5px;
+    box-sizing: border-box;
+}
+#dataBody{
+    width: 100%;
+    height: 100%;
+}
+#conatiner{
+    width: 90%;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.editicon{
+    width: 20%;
+    height:50px;
+    object-fit: contain;
+    align-items: start;
+}
+.userDiv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+.iconsdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
