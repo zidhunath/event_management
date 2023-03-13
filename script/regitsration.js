@@ -25,7 +25,7 @@ submitButton.addEventListener("click", (e) => {
       name: nameInput.value,
       age: ageInput.value,
       place: placeInput.value,
-      profrssion: profession.value,
+      profession: profession.value,
     };
 
     fetch(baseUrl, {
