@@ -13,8 +13,31 @@ html,body{
     padding: 5px;
     box-sizing: border-box;
 }
+.height30{
+    height: 30px;
+}
+.inpimage{
+    /* background: url(./images/search.png) no-repeat scroll ;
+    padding-left:30px;
+    box-sizing: border-box;
+     */
+}
 #dataBody{
     width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.height{
     height: 100%;
 }
 #conatiner{

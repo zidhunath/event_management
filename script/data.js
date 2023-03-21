@@ -83,7 +83,7 @@ function deleteUser(current_DeleteId,userObj){
         return res.json()
     })
     .then((data)=>{
-        fetchAnd_RenderUserData(userObj)
+        // fetchAnd_RenderUserData(userObj)
         
     })
 
@@ -114,3 +114,33 @@ function renderCard( id,name,age,place,profession){
 }
 
 fetchAnd_RenderUserData()
+
+// sort
+// debugger
+let ascendingArrow = document.getElementById("ascending");
+let descendingArrow = document.getElementById("descending");
+
+ascendingArrow.addEventListener("click",(e)=>{
+    e.preventDefault()
+    sortAgeAscending()
+});
+descendingArrow.addEventListener("click",sortAgeDescending);
+
+
+function sortAgeAscending(){
+    // debugger
+    fetch(`${dataUrl}?_sort=age&_order=asc`)
+    .then((res)=>res.json())
+    .then((resData)=>{
+        renderUsers(resData)
+    })
+}
+
+function sortAgeDescending(){
+    fetch(`${dataUrl}?_sort=age&_order=desc`)
+    .then((res)=>res.json())
+    .then((resData)=>{
+        
+        renderUsers(resData)
+    })
+}

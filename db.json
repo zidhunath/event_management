@@ -6,6 +6,62 @@
       "place": "Bangalore",
       "profession": "FullstackDeveloper",
       "id": 1
+    },
+    {
+      "name": "New user1",
+      "age": "22",
+      "place": "triv",
+      "profession": "FullstackDeveloper",
+      "id": 2
+    },
+    {
+      "name": "New user2",
+      "age": "34",
+      "place": "banagalore",
+      "profession": "BckendDeveloper",
+      "id": 3
+    },
+    {
+      "name": "Mao",
+      "age": "23",
+      "place": "ekm",
+      "profession": "BckendDeveloper",
+      "id": 4
+    },
+    {
+      "name": "Paulo",
+      "age": "24",
+      "place": "ekm",
+      "profession": "FrontendDeveloper",
+      "id": 5
+    },
+    {
+      "name": "Aurthur",
+      "age": "26",
+      "place": "uk",
+      "profession": "FullstackDeveloper",
+      "id": 6
+    },
+    {
+      "name": "Sherlok",
+      "age": "37",
+      "place": "Uk brighinam",
+      "profession": "BckendDeveloper",
+      "id": 8
+    },
+    {
+      "name": "Watson",
+      "age": "29",
+      "place": "UK",
+      "profession": "FrontendDeveloper",
+      "id": 9
+    },
+    {
+      "name": "Vishu R Krishnan",
+      "age": "35",
+      "place": "Vakkom",
+      "profession": "FullstackDeveloper",
+      "id": 10
     }
   ]
 }
