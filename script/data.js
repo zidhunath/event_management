@@ -144,3 +144,34 @@ function sortAgeDescending(){
         renderUsers(resData)
     })
 }
+
+//Serach user by name
+let getUser= document.getElementById("serchUser")
+getUser.addEventListener("change",serachParticipent)
+let filteredUser=[]
+function serachParticipent(e){
+    fetch(`${dataUrl}`)
+    .then((res)=>res.json())
+    .then((resData)=>{   
+        for(let i=0;i<resData.length;i++){
+            if(resData[i].name===e.target.value){
+                if(filteredUser=[]){
+                    filteredUser.push(resData[i])
+                    renderUsers(filteredUser)
+                }else if(filteredUser[i].id!==resData[i].id){
+                    filteredUser.push(resData[i])
+                    renderUsers(filteredUser)
+                }
+                
+
+                
+            }else if(e.target.value==""){
+            
+                renderUsers(resData)
+            }
+            
+        } 
+        
+    })
+    
+}
